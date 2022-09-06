@@ -1,0 +1,799 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+:root {
+    --white-dim: #cccccc;
+    --text-gray: #8c8c8c;
+    --bg-dark: #10181d;
+    --white: #FFFFFF;
+    --bg-gray: #636c79;
+    --light-green: #8bb7a2;
+    --text-dark-gray: #424242;
+    --text-dark: #1b1d21;
+}
+
+body {
+    background-color: var(--white);
+    font-family: "Open Sans", sans-serif;
+}
+
+/* ---------------------------------global css------------------------------- */
+
+.btn {
+    color: #FFFFFF;
+    padding: 10px 2.5rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.btn-outline {
+    border: 1px solid var(--light-green);
+    background-color: transparent;
+}
+
+.btn-fill {
+    background-color: var(--light-green);
+}
+
+.btn-lg {
+    padding: 18px 38px;
+    font-size: 16px;
+}
+
+/* .btn .button-global{
+    color: #FFFFFF;
+    background-color: #8BB7A2;
+
+
+} */
+
+
+/* =========================================this is global for content in We have made your care easy for you. section */
+.care-easy-content-global {
+    height: 80vh;
+    width: 90vw;
+  
+}
+
+.care-easy-content-global h4 {
+    font-size: 2.6rem;
+    margin-top: 11.2rem;
+    font-family: "Raleway";
+}
+
+.care-easy-content-global p {
+    margin-top: 2.5rem;
+    font-size: 1.2rem;
+    color: var(--text-gray);
+    font-weight: 500;
+}
+
+.care-easy-content-global button {
+    margin-top: 2.5rem;
+    border: none;
+}
+
+.container {
+    height: 100vh;
+}
+
+/* ===============================================navbar section====================== */
+.background-color-container {
+    background-color: #636c79;
+}
+
+
+.navbar .logo {
+    padding-left: 10.1rem;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    height: 14vh;
+    align-items: center;
+
+}
+
+.nav-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 2.5rem;
+    list-style-type: none;
+    /* flex-grow: 1; */
+    padding: 1.2rem 1.2rem;
+    width: 37.5rem;
+    margin-left: 9.3rem;
+}
+
+.items {
+    color: var(--white);
+}
+
+.navbar-button {
+    padding-right: 12.5rem;
+}
+
+
+/* ==========================================================Section 1 email start======================= */
+.section-1-email-container {
+    display: flex;
+    justify-content: center;
+    gap: 5.6rem;
+    align-items: center;
+    height: 85vh;
+    padding-bottom: 1.2rem;
+}
+
+.section-1-email-logo {
+    width: 30rem;
+    height: 580px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-left: 6.2rem;
+}
+
+.section-1-email-logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.section-1-email-logo-right {
+    /* border: 2px solid black; */
+    height: 580px;
+    width: 40rem;
+}
+
+.section-1-email-logo-right h1 {
+    font-family: "Raleway";
+    font-size: 4.5rem;
+    color: var(--white);
+    line-height: 75px;
+    margin-top: 3.1rem;
+}
+
+.section-1-email-logo-right p {
+    color: var(--white-dim);
+    margin: 2.5rem auto;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+}
+
+.email-input {
+    position: relative;
+}
+
+.email-input input {
+    padding: 28px 190px 28px 1.2rem;
+    width: 38rem;
+    outline: none;
+}
+
+.email-input ::placeholder {
+    font-size: 1.2rem;
+}
+
+.email-input button {
+    position: absolute;
+    right: 2.5rem;
+    top: 10px;
+    border: none;
+
+}
+
+/* ===========================================Conect business to target================ */
+.connect-business-container {
+    height: 150vh;
+    width: 100%;
+
+}
+
+.connect-business-header h1 {
+    /* border: 2px solid black; */
+    height: 30vh;
+    font-size: 3.1rem;
+    font-family: "Raleway";
+    text-align: center;
+    padding-top: 5rem;
+}
+
+.connect-business-analytics {
+    display: flex;
+    flex-direction: row;
+    height: 25vh;
+    /* border: 2px solid black; */
+    justify-content: center;
+    align-items: center;
+    gap: 11.2rem;
+}
+
+.analytics h2 {
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.analytics p {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.connect-business-footer {
+    height: 80vh;
+    width: 80%;
+    margin-left: 9.3rem;
+    margin-top: 1.2rem;
+
+}
+
+.connect-business-footer-image {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+
+/*=================================================Website designing Section========================= */
+.webdesign-container {
+    height: 100vh;
+    width: 100%;
+
+}
+
+.webdesign-header h4 {
+    text-align: center;
+    font-size: 5rem;
+    font-family: "Raleway";
+    padding-bottom: 70px;
+}
+
+.webdesign {
+    display: flex;
+    height: 85vh;
+    width: 80%;
+    gap: 6.2rem;
+    margin-left: 120px;
+}
+
+
+.webdesign-right {
+    height: 85vh;
+    width: 38rem;
+}
+
+
+.webdesign-img {
+    height: 85vh;
+    width: 36rem;
+    overflow: hidden;
+}
+
+.webdesign-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: right;
+}
+
+/* ===================================================Digital marketing section ========================================== */
+
+.digital-marketing-container {
+    margin-top: 9.3rem;
+    height: 88vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 5.6rem;
+
+}
+
+.digital-marketing-left-image {
+    height: 80vh;
+    width: 38rem;
+    margin-left: 6.8rem;
+    object-fit: cover;
+    object-position: top;
+}
+
+
+
+/* ================================================website developement section=============================================== */
+.website-developement-container {
+    margin-top: 1.2rem;
+    height: 88vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 1.8rem;
+}
+
+.website-developement-right img {
+    height: 80vh;
+    width: 38rem;
+    margin-left: 1.2rem;
+    object-fit: cover;
+    object-position: top;
+}
+
+.webdesign-container .care-easy-content-global {
+    margin: auto;
+}
+
+/* ======================================================Creative team section======================================= */
+
+.creaive-team-container {
+    height: 140vh;
+    width: 100%;
+}
+
+.creative-team-header {
+    height: 25vh;
+    width: 85%;
+    margin-left: 6.8rem;
+}
+
+.creative-team-header h3 {
+    font-size: 3.1rem;
+}
+
+.creative-team-header p {
+    float: right;
+    margin-top: -6.8rem;
+    font-size: 1.3rem;
+    color: var(--text-gray);
+    font-weight: 500;
+}
+
+.creative-team-images {
+    display: flex;
+    padding-top: 2.5rem;
+}
+
+.creative-team-image img {
+    height: 60vh;
+    width: 22rem;
+    object-fit: cover;
+    object-position: top;
+    margin-left: 120px;
+
+}
+
+.creative-team-image h5 {
+    margin-left: 120px;
+    padding: 1.2rem 10px;
+    font-size: 1.1rem;
+}
+
+.creative-team-image p {
+    margin-left: 120px;
+}
+
+.creative-team-btn {
+    text-align: center;
+    padding-top: 6.2rem;
+}
+
+.creative-team-btn button {
+    padding: 1.2rem 3.1rem;
+    border: none;
+}
+
+/* ================================================================footer section======================================= */
+
+.footer-container {
+    background-color: var(--bg-dark);
+    color: var(--white);
+
+}
+
+.footer-header {
+    max-width: 78rem;
+    margin: 0 auto;
+
+}
+
+.footer-header-logo {
+    display: flex;
+    justify-content: space-between;
+    height: 11.2rem;
+    align-items: center;
+}
+
+.footer-header-logo ul {
+    list-style-type: none;
+    display: flex;
+    gap: 2.5rem;
+}
+
+.footer-header-logo ul li span {
+    background-color: rgba(255, 255, 255, 0.093);
+    height: 3.7rem;
+    width: 3.7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 6.2rem;
+}
+
+.footer-navbar {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5rem;
+    padding-bottom: 6.2rem;
+}
+
+.footer-navbar .navbar-list h4 {
+    padding-bottom: 1.2rem;
+    font-size: 1.2rem;
+
+    font-weight: normal;
+}
+
+.footer-navbar .navbar-list ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    list-style-type: none;
+    color: var(--text-gray);
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.footer-navbar .navbar-list ul li {
+    cursor: pointer;
+}
+
+.hr {
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.093);
+    width: 100%;
+    display: block;
+}
+
+.footer-navbar {
+    display: flex;
+    flex-direction: row;
+    height: 50vh;
+    width: 100%;
+}
+
+
+@media screen and (max-width: 1024px) {
+    /* ---------------------------------global css------------------------------- */
+
+    .btn {
+        color: #FFFFFF;
+        padding: 10px 2.5rem;
+        font-weight: 600;
+        cursor: pointer;
+    }
+
+    .btn-outline {
+        border: 1px solid var(--light-green);
+        background-color: transparent;
+    }
+
+    .btn-fill {
+        background-color: var(--light-green);
+    }
+
+    .btn-lg {
+        padding: 18px 38px;
+        font-size: 16px;
+    }
+
+    .care-easy-content-global h4 {
+        font-size: 2rem;
+        margin-top: 11.2rem;
+        font-family: "Raleway";
+    }
+
+    .care-easy-content-global p {
+        margin-top: 2.5rem;
+        font-size: 1rem;
+        color: var(--text-gray);
+        font-weight: 500;
+    }
+
+    .care-easy-content-global button {
+        margin-top: 2.5rem;
+        border: none;
+    }
+
+    /*  ========================================== navbar section ====================================== */
+
+
+    .navbar .logo {
+        padding-left: 3rem;
+    }
+
+    .navbar .logo img {
+        height: 8vh;
+        width: auto;
+    }
+
+    .nav-items {
+        display: none;
+    }
+
+    .navbar-button {
+        padding-right: 5rem;
+    }
+
+    /* ==========================================================Section 1 email start======================= */
+    .section-1-email-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 200vh;
+        width: 100%;
+
+    }
+
+    .section-1-email-logo {
+        width: 100%;
+        height: 100vh;
+        margin: auto;
+        padding: 2rem;
+    }
+
+    .section-1-email-logo-right {
+
+        height: 100vh;
+        width: 100%;
+        text-align: center;
+    }
+
+
+    .section-1-email-logo-right h1 {
+        font-family: "Raleway";
+        font-size: 2.5rem;
+        color: var(--white);
+        margin-top: 0.5rem;
+    }
+
+    .section-1-email-logo-right p {
+        color: var(--white-dim);
+        margin: auto;
+        font-size: 1rem;
+    }
+
+    .email-input {
+        margin-top: 2rem;
+    }
+
+    .email-input input {
+        padding: 2rem;
+        width: 90%;
+        outline: none;
+    }
+
+    .email-input ::placeholder {
+        font-size: 0.9rem;
+    }
+
+    .email-input button {
+        position: relative;
+
+        left: 0rem;
+        width: 90%;
+
+    }
+
+    /* ===========================================Conect business to target================ */
+
+    .connect-business-container {
+        height: 145vh;
+        width: 100%;
+
+    }
+
+    .connect-business-header h1 {
+        /* border: 2px solid black; */
+        height: 25vh;
+        font-size: 2.1rem;
+        font-family: "Raleway";
+        text-align: center;
+        padding-top: 5rem;
+    }
+
+    .connect-business-analytics {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        height: 30vh;
+        justify-content: center;
+        align-items: center;
+        gap: 1.2rem;
+        padding: 3rem;
+    }
+
+    .connect-business-footer {
+        padding-top: 4rem;
+        height: 80vh;
+        width: 90%;
+        margin: auto;
+
+    }
+
+    /*=================================================Website designing Section========================= */
+
+    .webdesign-container {
+        height: 168vh;
+        width: 100%;
+    }
+
+    .webdesign-header h4 {
+        text-align: center;
+        font-size: 3rem;
+        font-family: "Raleway";
+        padding: 2rem;
+    }
+
+    .webdesign {
+        display: flex;
+        flex-direction: column-reverse;
+        margin: auto;
+
+    }
+
+    /* .webdesign-right {
+        border: 2px solid black;
+        margin: auto;
+        position: relative;
+        top: 38rem;
+    } */
+
+
+    .webdesign-img {
+        position: relative;
+        padding-right: 5rem;
+        top: 45rem;
+        width: 80vw;
+
+    }
+
+    .webdesign-img img {
+        margin: auto;
+        width: 100vw;
+        height: 100vh;
+        object-fit: cover;
+    }
+
+    .care-easy-content-global {
+        height: 80vh;
+        width: 70vw;
+        text-align: center;
+        margin-right: 5rem;
+        position: relative;
+        top: 20rem;
+        padding-top: 4rem;
+    }
+    .webdesign .care-easy-content-global{
+        margin-top: 5rem;
+    }
+    
+
+    /* .care-easy-content-global {
+        position: relative;
+        top: 20rem;
+    } */
+
+    .digital-marketing-container{
+        display: block;
+        height: auto;
+        width: 90vw;
+        margin: auto;
+        height: 135vh;
+    }
+    .digital-marketing-left {
+        position: relative;
+        padding-right: 5rem;
+        top: 0rem;
+        width: 100vw;
+
+    }
+
+    .digital-marketing-left img {
+        margin: auto;
+        height: 70vh;
+        width: 95%;
+        object-fit: cover;
+       
+    }
+    .digital-marketing-container .care-easy-content-global{
+        height: 80vh;
+        width: 90vw;
+        text-align: center;
+        margin-right: 5rem;
+        position: relative;
+        top: -12rem;
+       
+    }
+    .creative-team-header{
+        display:flex;
+        flex-direction: column;
+        height: 50vh;
+        margin: auto;
+        text-align: center;
+    }
+    .creative-team-header p{
+        margin-top: 2rem;
+    }
+
+    /* .team-card{
+        margin: auto;
+        height: 80vh;
+        width: 80vw;
+        border: 2px solid black;
+    } */
+    .team-card{
+        padding: 2rem 0rem;
+    }
+    .creative-team-images {
+        display: block;
+        padding-top: 2.5rem;
+        margin: auto;
+        height: 80vh;
+        width: 80vw;
+        text-align: center;
+    }
+    .creative-team-image img{
+        height: 80vh;
+        margin: auto;
+        width: 80vw;
+    }
+    .creative-team-image h5{
+        margin: auto;
+    }
+    .creative-team-image p{
+        margin: auto;
+    }
+
+    .creative-team-btn{
+        position: relative;
+        top: 105rem;
+    }
+
+    .footer-container{
+        height: 210vh;
+        width: 100vw;
+        margin-top: 115rem;
+        text-align: center;
+    }
+    .footer-header-logo{
+        display: block;
+    }
+    .footer-logo{
+        padding: 2rem;
+    }
+    .hr{
+        margin-top: 2rem;
+    }
+
+    .footer-navbar{
+        display: block;
+    }
+
+    .footer-header-logo ul li   {
+        margin: auto;
+    }
+
+    .navbar-list{
+        padding: 1rem 0rem;
+    }
+}
+
+
+
